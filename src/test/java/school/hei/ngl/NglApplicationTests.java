@@ -17,6 +17,7 @@ class NglApplicationTests {
             pub.ajouterMessage(new Message("salut", LocalDateTime.now(), true, u2));
             pub.ajouterMessage(new Message("coucou", LocalDateTime.now(), true, u2));
             pub.afficherAuteursMessages();
+        System.out.println(pub);
         }
     }
 
